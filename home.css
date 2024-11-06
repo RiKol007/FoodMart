@@ -1,0 +1,376 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, p {
+    margin-bottom: 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.btn {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d35400;
+}
+
+/* Header Styles */
+header {
+    background-color: #2c3e50;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+header .nav-links li {
+    margin-left: 2rem;
+}
+
+header .nav-links a {
+    color: #fff;
+    font-size: 1rem;
+}
+
+header input[type="search"] {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+header .user-links {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+header .user-links a {
+    color: #fff;
+    margin-left: 1.5rem;
+}
+
+/* Banner Section */
+.banner {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.banner img {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 400px;
+    margin-top: 50px;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #214e34;
+}
+
+.banner h4 {
+    margin-bottom: 1rem;
+    background-color: white;
+    color: black;
+    width: 180px;
+    text-align: center;
+    margin-left: 545px;
+    border-radius: 5px;
+
+}
+
+.banner p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Categories Section */
+.categories {
+    padding: 4rem 0;
+    background-color: #ecf0f1;
+}
+
+.categories h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.category-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.category-item1 {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    background-image: url(./images/image\ 1.png);
+    opacity: 90%;
+    width: 260px;
+    margin-left: 50px;
+}
+.category-item2 {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    background-image: url(./images/image\ 2.png);
+    opacity: 90%;
+    width: 260px;
+    background-size: cover;
+}
+.category-item3 {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    background-image: url(./images/image\ 5.png);
+    opacity: 90%;
+    width: 260px;
+    background-size: cover;
+}
+.category-item4 {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    background-image: url(./images/image\ 3.png);
+    opacity: 90%;
+    width: 260px;
+    margin-right: 50px;
+    background-size: cover;
+}
+
+.category-item1:hover {
+    transform: translateY(-10px);
+}
+
+.category-item2:hover {
+    transform: translateY(-10px);
+}.category-item3:hover {
+    transform: translateY(-10px);
+}.category-item4:hover {
+    transform: translateY(-10px);
+}
+.category-grid img {
+    width: 300px;
+    margin-bottom: 1rem;
+    
+}
+
+.category-grid h3 {
+    font-size: 1.25rem;
+    color: #f39c12;
+}
+.category-grid p{
+    color: white;
+}
+
+/* Product Section */
+.bestsellers {
+    padding: 4rem 0;
+    background-color: #f7f7f7;
+}
+
+.bestsellers h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.product-item:hover {
+    transform: translateY(-10px);
+}
+
+.product-item img {
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+.product-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-item p {
+    margin-bottom: 1rem;
+    color: #888;
+    font-size: 1rem;
+}
+
+/* Blog Section */
+.blog {
+    padding: 4rem 0;
+    background-color: #ecf0f1;
+}
+
+.blog h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.blog-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.blog-item {
+    background-color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.blog-item:hover {
+    transform: translateY(-10px);
+}
+
+.blog-item img {
+    width: 250px;
+}
+
+.blog-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog-item p {
+    margin-bottom: 1rem;
+    color: #888;
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.foodmartabout{
+    width: 400px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.about-us{
+    color: white;
+    margin-bottom: 100px;
+    margin-top: -90px;
+    width: 250px;
+    margin-left: 1000px;
+    text-align: left;
+}
+
+.foodmartabout h3{
+    color: #f39c12;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 992px) {
+    .category-grid, .product-grid, .blog-grid {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .banner img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    header input[type="search"] {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+}
